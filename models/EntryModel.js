@@ -16,7 +16,7 @@ const entry_scheme = mongoose.Schema (
             ref: 'User' 
         }
     },
-    { timestamp: true }
+    { timestamps: true }
 );
 
 module.exports = mongoose.model ( "Entry", entry_scheme );
